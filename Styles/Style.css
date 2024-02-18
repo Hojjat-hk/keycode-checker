@@ -1,0 +1,103 @@
+/* -- Font CDN -- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700;800;900&display=swap');
+
+/* [+] Css Variables */
+:root{
+    --desing-color-blackCodeLight:#262D3D;
+    --desing-color-skyBlue:#204ECF;
+}
+
+/* [+] For All Elements */
+*, *::before, *::after{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Poppins, serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* [+] Stylesheet */
+body{
+    transition: background-color 0.4s ease;
+    background-color: #F3F4F6;
+    position: relative;
+    height: 100vh;
+}
+.container{
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-block-start: 70px;
+    margin: auto;
+}
+.starter-text{
+    position: absolute;
+    padding: 5px 25px;
+    color: var(--desing-color-blackCodeLight);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+.page-title{
+    color: var(--desing-color-blackCodeLight);
+    font-size: 23px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.top-area_keycode{
+    margin-block: -40px;
+    color: var(--desing-color-blackCodeLight);
+    font-size: 170px;
+}
+.container-keycode-title{
+    color: var(--desing-color-blackCodeLight);
+    font-size: 14px;
+    margin-block-end:15px;
+}
+.container-keycode{
+    width: 100%;
+    color:var(--desing-color-blackCodeLight);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 30px;
+}
+.item-Keycode{
+    width: 100%;
+    max-width:250px;
+    min-width: 210px;
+    height: 170px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.header-keycode{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color:var(--desing-color-skyBlue) ;
+    padding-block: 5px;
+    font-size: 15px;
+}
+.item-Keycode > span{
+    flex: 1;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.item-Keycode:nth-child(2) > span{
+    font-size: 18px !important;
+}
