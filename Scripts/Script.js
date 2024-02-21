@@ -2,14 +2,14 @@
 const $ = document;
 
 // [+] Variables
-let container = $.querySelector(".container");
-let startText = $.querySelector(".starter-text");
-let titlePageValue = $.querySelector(".page-title__value");
-let topAreaValue = $.querySelector(".top-area_keycode");
-let eventKeyValue = $.querySelector(".eventKeyValue");
+let container             = $.querySelector(".container");
+let startText             = $.querySelector(".starter-text");
+let titlePageValue        = $.querySelector(".page-title__value");
+let topAreaValue          = $.querySelector(".top-area_keycode");
+let eventKeyValue         = $.querySelector(".eventKeyValue");
 let eventKeyLocationValue = $.querySelector(".eventKeyLocationValue");
-let eventKeyCodeValue = $.querySelector(".eventKeyCodeValue");
-let eventKeyWhichValue = $.querySelector(".eventKeyWhichValue");
+let eventKeyCodeValue     = $.querySelector(".eventKeyCodeValue");
+let eventKeyWhichValue    = $.querySelector(".eventKeyWhichValue");
 
 // [+] Functions
 function keyGenerator(event){
