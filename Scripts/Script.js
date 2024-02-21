@@ -33,6 +33,8 @@ function keyGenerator(event){
     }
 }
 
+
+// [+] Responsive website . .
 function responsiveAble(){
     if(window.innerWidth <= 550){
         container.style.display = "none";
