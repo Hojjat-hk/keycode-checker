@@ -35,12 +35,12 @@ function keyGenerator(event){
 
 // [+] Responsive website . .
 function responsiveAble(){
-    if(window.innerWidth <= 550){
+    if(window.innerWidth <= 565){
         container.style.display = "none";
         startText.style.display = "block";
         $.body.style.backgroundColor = "#63b4ff";
         startText.innerHTML = "This website does not work for mobile devices!";
-    }else{
+    }else{ 
         container.style.display = "flex";
         startText.style.display = "none";
         $.body.style.backgroundColor = "#F3F4F6";
